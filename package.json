@@ -1,0 +1,30 @@
+{
+  "name": "split-test-notification-bot",
+  "version": "0.1.0",
+  "description": "Notify split test user about a new release",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeDK/split-test-notification-bot"
+  },
+  "keywords": [
+    "actions",
+    "node"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^5.0.0",
+    "@octokit/core": "^3.5.1",
+    "@tsconfig/recommended": "^1.0.1",
+    "axios": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.9"
+  }
+}
